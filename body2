@@ -1,0 +1,30 @@
+'<!-- Table 2 -->
+<table border="1" cellpadding="1" cellspacing="1" style="width: 100%" class="table-mobile">
+<tbody><tr><th>Product Diagram</th><td style="padding: 0 40px">
+<img alt="Engineering dimension diagram for deep groove ball bearings" src="https://cdn.shopify.com/s/files/1/0670/2550/2506/files/Sealed-Ball-bearing-diagram.jpg" style="width: 100%; max-width: 250px"></td></tr>
+<tr><th>Product Specifications</th>
+<td style="padding: 0 40px;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+column-gap: 20px;">
+<div><p><strong>Main Dimensions</p>
+<p>d (mm) Inner Diameter : ')+ T0.[U_InnerDiameter]+('<br>
+D (mm) Outer Diameter : ')+ T0.[U_OuterDiameter]+('<br>
+B (mm) Width : ')+ T0.[U_Width]+('<br>
+</p></div>
+<div><p><strong>Load Ratings</strong></p>
+<p>Static Load (kN) : ')+ T0.[U_StaticLoadkN]+('<br>
+Dynamic Load (kN) : ')+ T0.[U_DynamicLoadkN]+('</p></div>
+<div>
+<p><strong>Mass (Kg)</strong><br>')+T0.[U_ShopifyVariantGrams]+('</p></div></td></tr>
+<tr><th>Product Description</th>
+<td style="padding: 0 40px">
+<p>')+T0.[U_MPN]+(' ')+ T0.[U_Brand]+(' Deep groove ball bearing<br>')+ T0.[U_MPN]+(' Product Dimensions ')+T0.[U_InnerDiameter]+(' d(mm) x ')+T0.[U_OuterDiameter]+(' D(mm) x ')+T0.[U_Width]+(' B(mm)</p>
+<p>Deep groove ball bearings are used in a really wide range of applications from common household appliances to agricultural machinery. Some of the more popular usages are :<br />
+Tumble dryers<br />
+Scooters<br />
+Tractors<br />
+Food and beverage industries</p>
+<p>Suitable for radial loads, deep groove ball bearings are the most common bearing type. They can come in different designs for standard and heavy duty applications as well as with different sealing and grease types depending on the usage.</p>
+</td></tr></tbody></table>'
